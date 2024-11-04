@@ -13,7 +13,7 @@ public class CargarDatos extends javax.swing.JFrame {
     public CargarDatos() {
         initComponents();
         this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
 

@@ -1,3 +1,4 @@
+com\mycompany\peluqueriacanina\igu\VerDatos.class
 com\mycompany\peluqueriacanina\persistencia\exceptions\NonexistentEntityException.class
 com\mycompany\peluqueriacanina\persistencia\MascotasJpaController.class
 com\mycompany\peluqueriacanina\logica\Duenio_.class

@@ -123,9 +123,9 @@ public class MenuPeluqueria extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCargarDatosActionPerformed
 
     private void btnVerDatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerDatosActionPerformed
-        /*VerDatos peluqueria = new VerDatos();
+        VerDatos peluqueria = new VerDatos();
         peluqueria.setVisible(true);
-        setLocationRelativeTo(null);*/
+        peluqueria.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnVerDatosActionPerformed
 
 
