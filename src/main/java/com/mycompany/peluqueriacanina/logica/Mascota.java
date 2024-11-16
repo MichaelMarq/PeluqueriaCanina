@@ -17,7 +17,7 @@ public class Mascota implements Serializable {
     @GeneratedValue(strategy=GenerationType.SEQUENCE)
     private int num_cliente;
     @Basic
-    private String nombre_perro;
+    private String nombre;
     private String raza;
     private String color;
     private String alergico;
@@ -32,9 +32,9 @@ public class Mascota implements Serializable {
     public Mascota() {
     }
 
-    public Mascota(int num_cliente, String nombre_perro, String raza, String color, String alergico, String atencion_especial, String observaciones, Duenio duenio) {
+    public Mascota(int num_cliente, String nombre, String raza, String color, String alergico, String atencion_especial, String observaciones, Duenio duenio) {
         this.num_cliente = num_cliente;
-        this.nombre_perro = nombre_perro;
+        this.nombre = nombre;
         this.raza = raza;
         this.color = color;
         this.alergico = alergico;
@@ -55,12 +55,12 @@ public class Mascota implements Serializable {
         this.num_cliente = num_cliente;
     }
 
-    public String getNombre_perro() {
-        return nombre_perro;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombre_perro(String nombre_perro) {
-        this.nombre_perro = nombre_perro;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getRaza() {
